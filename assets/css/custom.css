@@ -1,0 +1,16 @@
+@keyframes jump {
+0% { transform: translateY(0px); }
+33% { transform: translateY(-15px);}
+100% { transform: translateY(0px); }
+} 
+.map-marker {
+animation: jump 2s ease infinite;
+}
+#ccje > div { 
+margin: 10px auto; 
+position: relative; 
+}  
+#walk > div { 
+margin: 10px auto; 
+position: relative; 
+}  
