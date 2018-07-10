@@ -1,16 +1,35 @@
 @keyframes jump {
-0% { transform: translateY(0px); }
-33% { transform: translateY(-15px);}
-100% { transform: translateY(0px); }
-} 
-.map-marker {
-animation: jump 2s ease infinite;
-}
-#ccje > div { 
-margin: 10px auto; 
-position: relative; 
-}  
-#walk > div { 
-margin: 10px auto; 
-position: relative; 
-}  
+    0% { transform: translateY(0px); }
+    33% { transform: translateY(-15px);}
+    100% { transform: translateY(0px); }
+    } 
+    .map-marker {
+    animation: jump 2s ease infinite;
+    }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+        width: 100%;
+        margin: auto;
+    }
+    @-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(1, 1);
+    }
+    to {
+        -webkit-transform: scale(1.5, 1.5);
+    }
+    }
+
+    @keyframes zoom {
+    from {
+        transform: scale(1, 1);
+    }
+    to {
+        transform: scale(1.5, 1.5);
+    }
+    }
+
+    .carousel-inner .item > img {
+    -webkit-animation: zoom 30s;
+    animation: zoom 30s;
+    }
