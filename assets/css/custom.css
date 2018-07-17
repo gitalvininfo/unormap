@@ -30,6 +30,21 @@
     }
 
     .carousel-inner .item > img {
-    -webkit-animation: zoom 30s;
-    animation: zoom 30s;
+    -webkit-animation: zoom 20s;
+    animation: zoom 20s;
+    }
+    #day {
+        float:right;
+        font-family:Source Sans Pro;
+        font-size:25px;
+    }
+    #currentTime {
+        letter-spacing:3px;
+        font-family:Source Sans Pro;
+        font-size:25px;
+        float:right;
+    }
+    #unortopbar {
+        font-family:Source Sans Pro;
+        font-size:25px;
     }
